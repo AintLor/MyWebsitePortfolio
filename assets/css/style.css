@@ -1225,3 +1225,41 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Download Resume Button
+--------------------------------------------------------------*/
+.resume-download {
+  margin: 20px 0 40px;
+  text-align: center;
+}
+
+.resume-download a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #18d26e, #35e888);
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(24, 210, 110, 0.35);
+  transition: all 0.4s ease;
+}
+
+.resume-download a i {
+  font-size: 18px;
+}
+
+.resume-download a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(24, 210, 110, 0.5);
+  color: #fff;
+}
+
+.resume-download a:active {
+  transform: scale(0.97);
+}
+
